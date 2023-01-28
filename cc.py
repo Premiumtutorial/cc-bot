@@ -7,7 +7,7 @@ import colorama
 import time
 import asyncio
 import os
-from module import bin
+from corex import bin
 
 def detect_os():
     if "win" in sys.platform:
