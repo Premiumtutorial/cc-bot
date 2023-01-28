@@ -7,7 +7,7 @@ import colorama
 import time
 import asyncio
 import os
-from Module import bin
+from module import bin
 
 def detect_os():
     if "win" in sys.platform:
